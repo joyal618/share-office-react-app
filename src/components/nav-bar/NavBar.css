@@ -1,0 +1,65 @@
+.navbar{
+    position: absolute;
+    z-index:12;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0);
+    height: 100px;
+    align-items: center;
+    
+    
+}
+
+.nav-brand-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.nav-brand-name{
+    font-size: bold;
+    margin-left: 30px;  
+}
+
+.nav-logo-container{
+    background:#ffecf0;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.navbar-collapse{
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+.navbar-nav a{
+    margin-left: 30px;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+.navbar-nav a:hover{
+    color: black;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#nav-register{
+    background: #f8866b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+#nav-login{
+    background: #585858;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
